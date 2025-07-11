@@ -1,11 +1,9 @@
 body {
   box-sizing: border-box;
-  overflow: hidden;
   margin: 0px;
 }
 
 /* granat:*#233654* */
-
 
 
 p {
@@ -24,12 +22,13 @@ p {
 .nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-content: center;
+  gap: 2rem;
   width: auto;
   height: 8rem;
-  margin-right: 10rem;
-  margin-left: 10rem;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .logo {
@@ -109,8 +108,46 @@ p {
   margin-bottom: 0;
 }
 
+.sekcja-1 {
+  position: relative
+}
 
+.sekcja-1 div :first-child {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  background-color: #233654;
+  opacity: 70%;
+  padding: 1rem 3.8rem 1rem 1rem;
+}
+
+.sekcja-1 div :first-child {
+  color: #eceff1;
+  font-size: 3.8rem;
+}
+
+.sekcja-1 div :last-child {
+  color: #eceff1;
+  font-size: 1.8rem;
+  border-left: 1px solid #cfad7e;
+  padding-left: 1rem;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.przycisk-1 {
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  background-color: #cfad7e;
+  color: #eceff1;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 4rem 0.5rem 4rem;
+}
 
 .img-section-1 {
-  width: 10rem
+  width: 100%;
+  height: auto;
+  transform: ;
 }
