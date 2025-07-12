@@ -85,6 +85,33 @@ p {
   height: 3rem;
 }
 
+.socjale {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.fa-facebook {
+  color: #233654;
+}
+.fa-facebook:hover {
+  color: #cfad7e;
+  transition: 0.3s;
+}
+
+.fa-instagram {
+  background-color: #233654;
+  color: white;
+  border-radius: 50%;
+  padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+  font-size: 2.2rem;
+}
+.fa-instagram:hover {
+  background-color: #cfad7e;
+  transition: 0.3s;
+}
+
 .menu {
   display: flex;
   flex-direction: row;
