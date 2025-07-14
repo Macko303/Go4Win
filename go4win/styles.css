@@ -157,7 +157,7 @@ p {
 
 .div-1 {
   position: absolute;
-  top: 25%;
+  top: 20%;
   left: 10%;
   display: flex;
   flex-direction: column;
@@ -192,9 +192,15 @@ p {
   color: #eceff1;
   border: none;
   border-radius: 5px;
-  padding: 0.5rem 4rem 0.5rem 4rem;
+  padding: 1rem 4rem 1rem 4rem;
   width: 60%;
   max-height: 80%;
+  transition: 0.5s;
+}
+
+.przycisk-1:hover {
+  background-color: #233654;
+  transition: 0.5s;
 }
 
 .img-section-1 {
@@ -209,7 +215,7 @@ p {
   flex-direction: row;
   justify-items: center;
   align-items: center;
-  padding: 15rem;
+  padding: 10rem;
   gap: 5rem;
 }
 
@@ -220,6 +226,8 @@ p {
 .img-section-2 {
   width: 100%;
   height: auto;
+  border-radius: 1rem;
+  box-shadow: #cfad7e -1rem -1rem;
 }
 
 .section-2-text-conteiner {
@@ -230,13 +238,78 @@ p {
   color: #cfad7e;
   border-left: 1px solid #cfad7e;
   padding-left: 1rem;
+  font-size: 2rem;
 }
 
 .sekcja-2 h1 {
   color: #233654;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 .sekcja-2 p {
-  font-size: 1rem;
+  font-size: 1.1rem;
+}
+
+/*######  SEKCJA 3  ######*/
+
+.sekcja-3 {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-image: url(bieznia-1.jpg);
+  background-size: cover;
+  z-index: 1;
+}
+
+.div-3 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: #3860a1;
+  opacity: 80%;
+  z-index: 2;
+}
+
+.div-3-div1 {
+  border: 1px solid red;
+  width: 100%;
+  height: auto;
+}
+.div-3-div2 {
+  border: 1px solid red;
+  width: 100%;
+  height: auto;
+}
+.div-3-div3 {
+  border: 1px solid red;
+  width: 100%;
+  height: auto;
+}
+
+.div-4 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: #3860a1;
+  opacity: 80%;
+  z-index: 2;
+}
+
+.div-4-div1 {
+  border: 1px solid red;
+  width: 100%;
+  height: auto;
+}
+.div-4-div2 {
+  border: 1px solid red;
+  width: 100%;
+  height: auto;
+}
+.div-4-div3 {
+  border: 1px solid red;
+  width: 100%;
+  height: auto;
 }
