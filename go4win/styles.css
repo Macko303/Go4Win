@@ -213,7 +213,6 @@ p {
 .sekcja-2 {
   display: flex;
   flex-direction: row;
-  justify-items: center;
   align-items: center;
   padding: 10rem;
   gap: 5rem;
@@ -238,16 +237,16 @@ p {
   color: #cfad7e;
   border-left: 1px solid #cfad7e;
   padding-left: 1rem;
-  font-size: 2rem;
+  font-size: 4em;
 }
 
 .sekcja-2 h1 {
   color: #233654;
-  font-size: 2.2rem;
+  font-size: 3em;
 }
 
 .sekcja-2 p {
-  font-size: 1.1rem;
+  font-size: 2em;
 }
 
 /*######  SEKCJA 3  ######*/
@@ -255,8 +254,7 @@ p {
 .sekcja-3 {
   display: flex;
   flex-direction: column;
-  justify-items: center;
-  align-items: center;
+  gap: 7rem;
   width: 100%;
   height: auto;
   background-image: url(bieznia-1.jpg);
@@ -266,50 +264,87 @@ p {
 
 .div-3 {
   display: flex;
+  align-items: center;
+  gap: 10rem;
   width: 100%;
   height: auto;
-  background-color: #3860a1;
-  opacity: 80%;
   z-index: 2;
+  color: white;
+  text-align: center;
 }
 
 .div-3-div1 {
-  border: 1px solid red;
-  width: 100%;
-  height: auto;
+  border-radius: 1rem;
+  width: 30%;
+  height: 12rem;
+  padding: 2rem;
 }
+
 .div-3-div2 {
-  border: 1px solid red;
-  width: 100%;
-  height: auto;
+  border: 2px dashed white;
+  border-radius: 1rem;
+  width: 30%;
+  height: 12rem;
+  padding: 2rem;
 }
+
+.div-3-div2 :last-child {
+  color: #c2c2c2;
+  font-size: 0.8rem;
+}
+
 .div-3-div3 {
-  border: 1px solid red;
-  width: 100%;
-  height: auto;
+  border: 2px dashed white;
+  border-radius: 1rem;
+  width: 30%;
+  height: 12rem;
+  padding: 2rem;
+}
+.div-3-div3 :last-child {
+  color: #c2c2c2;
+  font-size: 0.8rem;
 }
 
 .div-4 {
   display: flex;
+  align-items: center;
+  gap: 10rem;
   width: 100%;
   height: auto;
-  background-color: #3860a1;
-  opacity: 80%;
   z-index: 2;
+  color: white;
+  text-align: center;
 }
 
 .div-4-div1 {
-  border: 1px solid red;
-  width: 100%;
-  height: auto;
+  border: 2px dashed white;
+  border-radius: 1rem;
+  width: 30%;
+  height: 12rem;
+  padding: 2rem;
 }
+
+.div-4-div1 :last-child {
+  color: #c2c2c2;
+  font-size: 0.8rem;
+}
+
 .div-4-div2 {
-  border: 1px solid red;
-  width: 100%;
-  height: auto;
+  background-color: #cfad7e;
+  border-radius: 1rem;
+  width: 30%;
+  height: 12rem;
+  padding: 2rem;
 }
 .div-4-div3 {
-  border: 1px solid red;
-  width: 100%;
-  height: auto;
+  border: 2px dashed white;
+  border-radius: 1rem;
+  width: 30%;
+  height: 12rem;
+  padding: 2rem;
+}
+
+.div-4-div3 :last-child {
+  color: #c2c2c2;
+  font-size: 0.8rem;
 }
