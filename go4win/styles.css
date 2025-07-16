@@ -95,6 +95,7 @@ p {
 .fa-facebook {
   color: #233654;
 }
+
 .fa-facebook:hover {
   color: #cfad7e;
   transition: 0.3s;
@@ -107,6 +108,7 @@ p {
   padding: 0.5rem 0.6rem 0.5rem 0.6rem;
   font-size: 2.2rem;
 }
+
 .fa-instagram:hover {
   background-color: #cfad7e;
   transition: 0.3s;
@@ -237,16 +239,16 @@ p {
   color: #cfad7e;
   border-left: 1px solid #cfad7e;
   padding-left: 1rem;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .sekcja-2 h1 {
   color: #233654;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .sekcja-2 p {
-  font-size: 2em;
+  font-size: 1.3em;
 }
 
 /*######  SEKCJA 3  ######*/
@@ -254,20 +256,35 @@ p {
 .sekcja-3 {
   display: flex;
   flex-direction: column;
-  gap: 7rem;
+  gap: 5rem;
   width: 100%;
-  height: auto;
   background-image: url(bieznia-1.jpg);
   background-size: cover;
   z-index: 1;
 }
 
+.sekcja-3-hover1:hover {
+  transition: 0.3s;
+  background-color: white;
+  border: 2px solid #cfad7e;
+  box-shadow: #cfad7e 0 0 1rem;
+  color: #424242 !important;
+}
+
+.sekcja-3-hover2:hover {
+  transition: 0.3s;
+  background-color: white;
+  box-shadow: #cfad7e 0 0 1rem;
+  color: #424242 !important;
+}
+
 .div-3 {
   display: flex;
-  align-items: center;
-  gap: 10rem;
+  justify-content: center;
+  gap: 5rem;
   width: 100%;
   height: auto;
+  padding-top: 10rem;
   z-index: 2;
   color: white;
   text-align: center;
@@ -275,42 +292,58 @@ p {
 
 .div-3-div1 {
   border-radius: 1rem;
-  width: 30%;
+  width: 20%;
   height: 12rem;
   padding: 2rem;
+  text-align: left;
+}
+
+.div-3-div1 :first-child {
+  border-left: 1px solid #cfad7e;
+  padding-left: 5px;
+  color: #cfad7e;
+  font-size: 1.5rem;
+}
+
+.div-3-div1 h1 {
+  font-size: 2rem;
+}
+
+.div-3-div1 :last-child {
+  font-size: 0.9rem;
 }
 
 .div-3-div2 {
   border: 2px dashed white;
   border-radius: 1rem;
-  width: 30%;
+  width: 20%;
   height: 12rem;
   padding: 2rem;
 }
 
 .div-3-div2 :last-child {
-  color: #c2c2c2;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .div-3-div3 {
   border: 2px dashed white;
   border-radius: 1rem;
-  width: 30%;
+  width: 20%;
   height: 12rem;
   padding: 2rem;
 }
+
 .div-3-div3 :last-child {
-  color: #c2c2c2;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .div-4 {
   display: flex;
-  align-items: center;
-  gap: 10rem;
+  justify-content: center;
+  gap: 5rem;
   width: 100%;
   height: auto;
+  padding-bottom: 10rem;
   z-index: 2;
   color: white;
   text-align: center;
@@ -319,32 +352,36 @@ p {
 .div-4-div1 {
   border: 2px dashed white;
   border-radius: 1rem;
-  width: 30%;
+  width: 20%;
   height: 12rem;
   padding: 2rem;
 }
 
 .div-4-div1 :last-child {
-  color: #c2c2c2;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .div-4-div2 {
+  border: 2px solid #cfad7e;
   background-color: #cfad7e;
   border-radius: 1rem;
-  width: 30%;
+  width: 20%;
   height: 12rem;
   padding: 2rem;
 }
+
+.div-4-div2 :last-child {
+  font-size: 0.9rem;
+}
+
 .div-4-div3 {
   border: 2px dashed white;
   border-radius: 1rem;
-  width: 30%;
+  width: 20%;
   height: 12rem;
   padding: 2rem;
 }
 
 .div-4-div3 :last-child {
-  color: #c2c2c2;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
