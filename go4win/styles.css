@@ -417,6 +417,7 @@ p {
   border-left: 1px solid #cfad7e;
   padding-left: 5px;
   font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 .sekcja-4-div1-div1 :last-child {
   color: #233654;
@@ -425,11 +426,11 @@ p {
 
 .sekcja-4-div1-div2 {
   width: 40%;
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 .sekcja-4-div1-div3 {
   width: 40%;
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 .sekcja-4-div2 {
@@ -491,4 +492,89 @@ p {
   font-size: 3rem;
   padding-bottom: 1rem;
   color: black;
+}
+
+/*######  SEKCJA 5  ######*/
+
+.sekcja-5 {
+  background-color: #eceff1;
+  position: relative;
+  height: 50rem;
+}
+.sekcja-5-div1 {
+  text-align: left;
+  width: 31%;
+  margin-left: 10%;
+  padding-top: 5%;
+}
+
+.sekcja-5-div1 :first-child {
+  color: #cfad7e;
+  border-left: 1px solid #cfad7e;
+  padding-left: 5px;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.sekcja-5-div1 :nth-child(2) {
+  color: #233654;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.sekcja-5-div2 {
+  display: flex;
+  position: absolute;
+  top: 20rem;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 4rem;
+  width: 100%;
+  gap: 10rem;
+}
+
+.sekcja-5-div2-div1 {
+  width: 20%;
+  height: 20rem;
+  background-image: url(osoba-1.jpg);
+  background-size: cover;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.sekcja-5-div2-div1 :first-child {
+  text-align: center;
+  background-color: white;
+  position: sticky;
+  bottom: 0%;
+}
+
+.sekcja-5-div2-div2 {
+  width: 20%;
+  height: 20rem;
+  background-image: url(osoba-2.jpg);
+  background-size: cover;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.sekcja-5-div2-div2 :first-child {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+}
+
+.sekcja-5-div2-div3 {
+  width: 20%;
+  height: 20rem;
+  background-image: url(osoba-3.jpg);
+  background-size: cover;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.sekcja-5-div2-div3 :first-child {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
 }
