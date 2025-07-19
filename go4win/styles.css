@@ -499,7 +499,7 @@ p {
 .sekcja-5 {
   background-color: #eceff1;
   position: relative;
-  height: 50rem;
+  height: 41rem;
 }
 .sekcja-5-div1 {
   text-align: left;
@@ -523,58 +523,96 @@ p {
 
 .sekcja-5-div2 {
   display: flex;
-  position: absolute;
-  top: 20rem;
   flex-direction: row;
   justify-content: center;
-  margin-top: 4rem;
+  position: absolute;
+  top: 20rem;
   width: 100%;
-  gap: 10rem;
+  gap: 3rem;
+  margin-top: 1rem;
 }
 
 .sekcja-5-div2-div1 {
-  width: 20%;
-  height: 20rem;
+  display: flex;
+  flex-direction: row;
+  align-items: last baseline;
+  width: 25%;
+  height: 25rem;
   background-image: url(osoba-1.jpg);
   background-size: cover;
   border-radius: 1rem;
   overflow: hidden;
+  box-shadow: #a2a2a2 0 0 1rem;
 }
+.sekcja-5-div2-div1:hover {
+  background-image: url(osoba-1-2.jpg);
+  background-size: fill;
+}
+
 .sekcja-5-div2-div1 :first-child {
   text-align: center;
+  width: 100%;
   background-color: white;
-  position: sticky;
-  bottom: 0%;
+  padding: 0.5rem;
+}
+
+.sekcja-5-div2-div1 div :first-child {
+  font-size: 1.5rem;
+  color: #cfad7e;
 }
 
 .sekcja-5-div2-div2 {
-  width: 20%;
-  height: 20rem;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  width: 25%;
+  height: 25rem;
   background-image: url(osoba-2.jpg);
   background-size: cover;
   border-radius: 1rem;
   overflow: hidden;
+  box-shadow: #a2a2a2 0 0 1rem;
 }
+.sekcja-5-div2-div2:hover {
+  background-image: url(osoba-2-2.jpg);
+  background-size: fill;
+}
+
 .sekcja-5-div2-div2 :first-child {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
   text-align: center;
-  padding: 1rem;
+  width: 100%;
+  background-color: white;
+  padding: 0.5rem;
+}
+.sekcja-5-div2-div2 div :first-child {
+  font-size: 1.5rem;
+  color: #cfad7e;
 }
 
 .sekcja-5-div2-div3 {
-  width: 20%;
-  height: 20rem;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  width: 25%;
+  height: 25rem;
   background-image: url(osoba-3.jpg);
   background-size: cover;
   border-radius: 1rem;
   overflow: hidden;
+  box-shadow: #a2a2a2 0 0 1rem;
 }
+.sekcja-5-div2-div3:hover {
+  background-image: url(osoba-3-2.jpg);
+  background-size: fill;
+}
+
 .sekcja-5-div2-div3 :first-child {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
   text-align: center;
-  padding: 1rem;
+  width: 100%;
+  background-color: white;
+  padding: 0.5rem;
+}
+.sekcja-5-div2-div3 div :first-child {
+  font-size: 1.5rem;
+  color: #cfad7e;
 }
