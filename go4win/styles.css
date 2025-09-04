@@ -953,7 +953,6 @@ p {
   flex-direction: row;
   gap: 4rem;
   padding: 4rem 0 4rem 0;
-  margin: 4rem 0 4rem 0;
   background-image: url("bieznia-3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1027,7 +1026,7 @@ p {
   display: flex;
   flex-direction: column;
   width: 40%;
-  margin-right: 9%;
+  margin-right: 17%;
 }
 
 .sekcja-8-form {
@@ -1037,7 +1036,7 @@ p {
   gap: 1rem;
   width: 100%;
   height: 100%;
-  background-color: white;
+  background-color: #eceff1;
   border-radius: 1rem;
   border-bottom: 6px solid #cfad7e;
 }
@@ -1047,20 +1046,49 @@ p {
   color: #424242;
   opacity: 50%;
 }
+
 .sekcja-8-input2 {
   padding: 0.4rem;
   color: #424242;
   opacity: 50%;
 }
+
 .sekcja-8-input3 {
   padding: 0.4rem;
   color: #424242;
   opacity: 50%;
 }
+
 .sekcja-8-textarea {
   padding: 0.4rem;
   color: #424242;
   opacity: 50%;
-  height: 10rem;
-  vertical-align: text-top;
+  height: 8rem;
+  resize: none;
+  box-sizing: border-box;
+  text-wrap: wrap;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.sekcja-8-zgoda {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.sekcja-8-zgoda p {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.sekcja-8-button {
+  border: none;
+  background-color: #cfad7e;
+  color: #eceff1;
+  border-radius: 5px;
+  width: 10rem !important;
+  height: 3rem;
+  font-size: 1.5rem;
+  margin: auto;
+  margin-top: 1rem;
 }
