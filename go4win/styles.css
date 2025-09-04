@@ -632,11 +632,7 @@ p {
   color: #cfad7e;
 }
 
-
-
 /*######  SEKCJA 6  ######*/
-
-
 
 .sekcja-6 {
   display: flex;
@@ -750,11 +746,7 @@ p {
   font-weight: 400;
 }
 
-
-
 /*######  SEKCJA 7  ######*/
-
-
 
 .sekcja-7 {
   display: flex;
@@ -954,11 +946,7 @@ p {
   transition: 0.3s;
 }
 
-
-
 /*######  SEKCJA 8  ######*/
-
-
 
 .sekcja-8 {
   display: flex;
@@ -1026,7 +1014,7 @@ p {
 }
 
 .sekcja-8-div1-div4-h3 {
-  color: white;
+  color: #eceff1;
   font-size: 2.5rem;
   padding: 2rem 0 1rem 0;
 }
@@ -1035,11 +1023,44 @@ p {
   padding-right: 41%;
 }
 
-
 .sekcja-8-div2 {
   display: flex;
   flex-direction: column;
   width: 40%;
   margin-right: 9%;
-  border: 1px solid red;
+}
+
+.sekcja-8-form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 1rem;
+  border-bottom: 6px solid #cfad7e;
+}
+
+.sekcja-8-input1 {
+  padding: 0.4rem;
+  color: #424242;
+  opacity: 50%;
+}
+.sekcja-8-input2 {
+  padding: 0.4rem;
+  color: #424242;
+  opacity: 50%;
+}
+.sekcja-8-input3 {
+  padding: 0.4rem;
+  color: #424242;
+  opacity: 50%;
+}
+.sekcja-8-textarea {
+  padding: 0.4rem;
+  color: #424242;
+  opacity: 50%;
+  height: 10rem;
+  vertical-align: text-top;
 }
