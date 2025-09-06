@@ -1209,3 +1209,140 @@ p {
 .sekcja-9-div3-div2 :last-child {
   font-weight: 400;
 }
+
+/*######  FOOTER  ######*/
+
+footer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 3rem 9% 3rem 9%;
+  background-color: #233654;
+  gap: 4rem;
+}
+
+.footer-div1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 1rem;
+}
+
+.footer-div1-div1 {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.footer-div1-div1 ul {
+  list-style: none;
+  color: #eceff1;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-div1-div1 ul li {
+  margin-bottom: 1rem;
+}
+
+.footer-div1-div2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.footer-div1-div2-phone {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  color: #eceff1;
+}
+
+.footer-div1-div2-phone p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 1rem;
+}
+
+.footer-div1-div2-email {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  color: #eceff1;
+  padding-left: 0.6rem;
+}
+
+.footer-div1-div2-email p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 1rem;
+}
+
+.footer-div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 30%;
+}
+
+.footer-logo {
+  width: 6rem;
+}
+
+.footer-line {
+  background-color: #eceff1;
+  width: 100%;
+  height: 1px;
+}
+
+.footer-div2 p {
+  color: #eceff1;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.footer-div2 h2 {
+  color: #cfad7e;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  margin: 0;
+}
+
+.footer-social {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-social :first-child {
+  background-color: #233654;
+  color: #eceff1;
+  border-radius: 50%;
+}
+.footer-social :first-child:hover {
+  background-color: #eceff1;
+  color: #cfad7e;
+}
+
+.footer-social :last-child {
+  color: #233654;
+  background-color: #eceff1;
+  padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+}
+.footer-social :last-child:hover {
+  background-color: #cfad7e;
+  color: #eceff1;
+}
+
+.footer-div3 {
+  color: #eceff1;
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  padding-top: 2rem;
+}
