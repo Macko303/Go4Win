@@ -25,15 +25,30 @@ p {
   justify-content: center;
   align-content: center;
   gap: 2rem;
-  width: auto;
   height: 8rem;
   margin-right: 10%;
   margin-left: 10%;
 }
 
+@media (max-width: 1412px) {
+  .nav {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}
+@media (max-width: 1255px) {
+  .nav {
+    margin: 0;
+  }
+}
+@media (max-width: 1190px) {
+  .procent {
+    display: none !important;
+  }
+}
+
 .logo {
   height: 6rem;
-  width: auto;
   padding-top: 1rem;
 }
 
@@ -123,13 +138,48 @@ p {
   gap: 2rem;
   background-color: #233654;
   height: 5rem;
-  width: auto;
   color: #eceff1;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 700;
   font-size: 1em;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.drop-menu {
+  display: none;
+}
+
+@media (max-width: 1190px) {
+  .socjale {
+    flex-direction: column;
+    padding-top: 0.3rem;
+  }
+
+  .menu {
+    display: none !important;
+  }
+
+  .fa-bars {
+    color: #cfad7e;
+  }
+
+  .drop-menu {
+    background-color: #233654;
+    height: 5rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-right: 2rem;
+  }
+
+  .div-droped {
+    position: absolute;
+    z-index: 2;
+    display: none;
+  }
 }
 
 .button-trening {
@@ -159,17 +209,24 @@ p {
 
 .div-1 {
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 10%;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
+@media (min-width: 1800px) {
+  .div-1 {
+    left: 20%;
+  }
+}
+
 .div-2 {
   background-color: rgb(35, 54, 84);
   opacity: 80%;
   padding: 1rem 3.8rem 1rem 1rem;
+  width: 17rem;
 }
 
 .div-2 :first-child {
@@ -195,8 +252,8 @@ p {
   border: none;
   border-radius: 5px;
   padding: 1rem 4rem 1rem 4rem;
-  width: 60%;
-  max-height: 80%;
+  width: 15rem;
+  height: 80%;
   transition: 0.5s;
 }
 
